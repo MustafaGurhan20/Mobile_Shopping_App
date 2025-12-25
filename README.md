@@ -16,7 +16,7 @@ Sadece bir arayüz değil, veritabanı yönetiminden güvenliğe (**JWT**) kadar
 * **Kullanıcı Deneyimi (UX):** Dinamik ürün listeleme, sepete ekleme, favoriler ve profil yönetimi.
 * **Veritabanı Yönetimi:** MSSQL ve Entity Framework Core (Code-First) yaklaşımı.
 
-## 🛠️ Teknoloji Yığını (Tech Stack)
+## 🛠️ Tech Stack
 
 ### Frontend (Mobil)
 * **Framework:** React Native (Expo SDK 50+)
@@ -29,16 +29,6 @@ Sadece bir arayüz değil, veritabanı yönetiminden güvenliğe (**JWT**) kadar
 * **ORM:** Entity Framework Core
 * **Veritabanı:** MSSQL
 
-## 💻 Kurulum ve Çalıştırma
-
 Bu proje **Client** (Mobil) ve **Server** (API) olmak üzere iki parçadan oluşur.
 
-### 1. Backend (API) Kurulumu
-Backend klasörüne gidin ve veritabanını ayağa kaldırın:
-```bash
-cd Server
-dotnet restore
-dotnet ef database update  # Veritabanı tablolarını oluşturur
-dotnet run
-```
 <p align="center"> Mustafa Gürhan tarafından ❤️ ile geliştirildi. </p>
